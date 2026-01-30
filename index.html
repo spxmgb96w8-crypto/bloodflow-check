@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>血流改善チェック｜あなたは何個当てはまる？</title>
+  <meta name="description" content="血流改善チェックで今の状態をセルフ確認。チェック数に応じてケアの目安も表示。結果を見て血流改善体験へ。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <p class="badge">血流改善チェック</p>
+      <h1>あなたは何個当てはまる？</h1>
+      <p class="lead">
+        当てはまる項目にチェックを入れてください。<br/>
+        <span class="muted">（青＝軽度／黄＝中度／赤＝重度）</span>
+      </p>
+
+      <div class="cta-row">
+        <a class="btn primary" href="#check">チェックを始める</a>
+        <a class="btn ghost" href="#about">血流の説明を見る</a>
+      </div>
+      <p class="note small">
+        ※本ページは診断・治療を目的とした医療行為ではありません。目安としてご活用ください。
+      </p>
+    </div>
+  </header>
+
+  <main>
+    <section id="check" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>チェックリスト</h2>
+          <p class="muted">気になるものを素直にチェックしてOK。</p>
+        </div>
+
+        <div class="grid-3">
+          <!-- BLUE -->
+          <div class="card blue">
+            <div class="card-head">
+              <h3>軽度（青）</h3>
+              <p class="muted small">生活習慣・姿勢の影響が出やすいゾーン</p>
+            </div>
+            <ul class="checklist" data-group="blue">
+              <li><label><input type="checkbox" value="blue">デスクワークが多く、毎日パソコンを使う</label></li>
+              <li><label><input type="checkbox" value="blue">最近、目の疲れが気になる</label></li>
+              <li><label><input type="checkbox" value="blue">スマホやパソコン作業中、気づくと姿勢が猫背になる</label></li>
+              <li><label><input type="checkbox" value="blue">休日は寝転がってテレビや本を見ている</label></li>
+              <li><label><input type="checkbox" value="blue">枕の高さが合ってない（高い・低い）と感じる</label></li>
+              <li><label><input type="checkbox" value="blue">長い時間、同じ姿勢で作業することが多い</label></li>
+              <li><label><input type="checkbox" value="blue">運動不足だと思う</label></li>
+              <li><label><input type="checkbox" value="blue">左右どちらかの肩に重い荷物を持つことが多い</label></li>
+              <li><label><input type="checkbox" value="blue">ストレスにさらされ緊張することが多く、体に力が入っていると感じる</label></li>
+              <li><label><input type="checkbox" value="blue">湯船に浸からず、シャワーだけの日が多い</label></li>
+            </ul>
+          </div>
+
+          <!-- YELLOW -->
+          <div class="card yellow">
+            <div class="card-head">
+              <h3>中度（黄）</h3>
+              <p class="muted small">巡りと代謝が落ちやすいゾーン</p>
+            </div>
+            <ul class="checklist" data-group="yellow">
+              <li><label><input type="checkbox" value="yellow">食事の栄養バランスが取れていない</label></li>
+              <li><label><input type="checkbox" value="yellow">肌がベタつく感じがする</label></li>
+              <li><label><input type="checkbox" value="yellow">近所への外出は、とくに紫外線対策をしない</label></li>
+              <li><label><input type="checkbox" value="yellow">生活が不規則である</label></li>
+              <li><label><input type="checkbox" value="yellow">1年を通して、肌のケアは同じだ</label></li>
+              <li><label><input type="checkbox" value="yellow">塩辛い食べ物が好きである</label></li>
+              <li><label><input type="checkbox" value="yellow">冬でもサラダや冷たい飲み物をよくとる</label></li>
+              <li><label><input type="checkbox" value="yellow">ダイエットをしている</label></li>
+              <li><label><input type="checkbox" value="yellow">お酒を飲む機会が多い</label></li>
+              <li><label><input type="checkbox" value="yellow">日中、ブーツやきつい靴を履いている</label></li>
+            </ul>
+          </div>
+
+          <!-- RED -->
+          <div class="card red">
+            <div class="card-head">
+              <h3>重度（赤）</h3>
+              <p class="muted small">冷え・だるさ・不調が出やすいゾーン</p>
+            </div>
+            <ul class="checklist" data-group="red">
+              <li><label><input type="checkbox" value="red">手足が冷たい／温めても中々温まらない</label></li>
+              <li><label><input type="checkbox" value="red">あかぎれ、しびれ、しもやけ</label></li>
+              <li><label><input type="checkbox" value="red">関節痛、腰痛、頭痛、肩こり</label></li>
+              <li><label><input type="checkbox" value="red">ほてり、のぼせるような感覚（冷えのぼせ）</label></li>
+              <li><label><input type="checkbox" value="red">気温が高い日でも汗をかかない／体が冷たい</label></li>
+              <li><label><input type="checkbox" value="red">寝起きが悪い、寝坊しがち</label></li>
+              <li><label><input type="checkbox" value="red">休んでも疲れが取れない／だるさがある</label></li>
+              <li><label><input type="checkbox" value="red">低血圧</label></li>
+              <li><label><input type="checkbox" value="red">生理痛や生理不順／月経前症候群</label></li>
+              <li><label><input type="checkbox" value="red">自律神経失調症／不眠症</label></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="result-wrap" aria-live="polite">
+          <div class="result">
+            <div class="result-top">
+              <div>
+                <p class="kicker">結果</p>
+                <h3 id="severityTitle">まだチェックされていません</h3>
+                <p id="severityDesc" class="muted"></p>
+              </div>
+              <div class="counts">
+                <div class="chip blue"><span>青</span><b id="countBlue">0</b></div>
+                <div class="chip yellow"><span>黄</span><b id="countYellow">0</b></div>
+                <div class="chip red"><span>赤</span><b id="countRed">0</b></div>
+                <div class="chip total"><span>合計</span><b id="countTotal">0</b></div>
+              </div>
+            </div>
+
+            <div class="result-body">
+              <div class="care-box">
+                <h4>チェック数が多い方へ</h4>
+                <p class="muted">
+                  チェック数が多いほど、血流の滞りが<strong>長期間続いている可能性</strong>があります。<br/>
+                  その分、体が本来の状態に戻るまでには<strong>継続的なケア日数・回数</strong>が必要になります。
+                </p>
+                <div class="care-grid">
+                  <div class="care-item">
+                    <p class="care-num">1〜3個</p>
+                    <p class="muted small">比較的軽度。数回のケアで変化を感じやすい傾向</p>
+                  </div>
+                  <div class="care-item">
+                    <p class="care-num">4〜7個</p>
+                    <p class="muted small">中程度。定期的なケアで体質改善を目指す段階</p>
+                  </div>
+                  <div class="care-item">
+                    <p class="care-num">8個以上</p>
+                    <p class="muted small">慢性的な傾向。集中ケア＋継続が必要</p>
+                  </div>
+                </div>
+                <p class="note small">※目安です。体質・生活習慣・冷えの期間などにより個人差があります。</p>
+              </div>
+
+              <div class="cta-big">
+                <p class="cta-copy">
+                  今の状態を知った今だからこそ、まずは一度<strong>血流改善体験</strong>でリセットしませんか？
+                </p>
+                <div class="cta-row">
+                  <a class="btn primary" href="#experience">血流改善体験に進む</a>
+                  <button class="btn ghost" id="resetBtn" type="button">チェックをリセット</button>
+                </div>
+                <p class="muted small">スタッフにこの画面を見せてください。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="about" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>血行不良の症状</h2>
+          <p class="muted">血流が滞ると、全身に影響が出やすくなります。</p>
+        </div>
+
+        <div class="info-grid">
+          <div class="info-card">
+            <h3>脱毛・薄毛</h3>
+            <p class="muted">髪の毛は毛細血管から栄養を受け取って成長します。血行不良が続くと成長が鈍り、抜けやすくなると言われています。</p>
+          </div>
+          <div class="info-card">
+            <h3>眼精疲労</h3>
+            <p class="muted">目の周りを温めたり軽くマッサージするのは、血流を促し疲労物質の排出を助けるためです。</p>
+          </div>
+          <div class="info-card">
+            <h3>関節痛</h3>
+            <p class="muted">血流が悪いと筋肉が冷えこわばり、関節への負担が増えやすくなります。</p>
+          </div>
+          <div class="info-card">
+            <h3>こむら返り</h3>
+            <p class="muted">冷えや血行不良が続くと、筋肉に疲労物質がたまりやすく、痙攣が起こりやすくなります。</p>
+          </div>
+          <div class="info-card">
+            <h3>肩こり</h3>
+            <p class="muted">血流が滞ると老廃物がたまり、コリの原因になりやすいと言われています。</p>
+          </div>
+          <div class="info-card">
+            <h3>腰痛</h3>
+            <p class="muted">筋肉の緊張が続くと疲労物質が蓄積し、さらに緊張を強める悪循環が起こりやすくなります。</p>
+          </div>
+          <div class="info-card">
+            <h3>むくみ</h3>
+            <p class="muted">下肢のむくみは血流の停滞が関係することがあります。水分が細胞の間に染み出し、むくみとして現れます。</p>
+          </div>
+          <div class="info-card accent">
+            <h3>冷え性</h3>
+            <p class="muted">体温は血液によって維持されています。末端まで血液が届きにくいと冷えを感じやすくなります。</p>
+          </div>
+        </div>
+
+        <p class="big-claim">血行不良からセルライトも増加。太りやすくなったり不調にも繋がります。</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>冷え性からくる諸症状</h2>
+          <p class="muted">冷え性＝血行不良。体温維持はとても重要です。</p>
+        </div>
+
+        <div class="two-col">
+          <div class="panel">
+            <h3>冷え性＝血行不良</h3>
+            <p class="muted">
+              冷え性の方は、同時にさまざまな悩みを抱えやすい傾向があります。<br/>
+              また、細胞に栄養を運びにくくなり、老廃物を排出しにくくなることも。
+            </p>
+            <p class="highlight">
+              体温が1℃下がると、免疫力が30%低下、代謝が12%低下
+            </p>
+            <p class="muted">
+              健康のためにも体温を維持することは非常に重要です。冷え性を改善していくことで、他の悩みも同時に解消できるかもしれません。
+            </p>
+
+            <h4>酵素の働きの低下</h4>
+            <p class="muted">代謝が下がる＝消化・エネルギー代謝も下がりやすくなります。</p>
+          </div>
+
+          <div class="panel">
+            <h3>冷えで起きる不調</h3>
+            <p class="muted">
+              めまい・耳鳴り・頭痛・腰痛・関節痛・のぼせ・赤ら顔・肩凝り・頻尿・生理痛・生理不順・動悸・しもやけ・あかぎれ・寝起き悪い・汗が出ない・疲労感・低血圧・眼精疲労・便秘・爪がもろくなる・ニキビができやすい・口の渇き・シミ・皺・顔のくすみ・抜け毛・薄毛
+            </p>
+
+            <h3 class="mt">ひどくなると</h3>
+            <p class="muted">
+              風邪・気管支炎・皮膚の炎症・湿疹・アレルギー・動脈硬化・高血圧・血栓・緑内障・高脂血症・癌
+            </p>
+            <p class="note small">※上記は一般的に言われる関連の例です。気になる症状がある場合は医療機関へご相談ください。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>血流改善体験へ</h2>
+          <p class="muted">「まずは一度リセット」から始めましょう。</p>
+        </div>
+
+        <div class="experience-card">
+          <div>
+            <h3>血流改善体験（おすすめ）</h3>
+            <ul class="bullets">
+              <li>冷え・むくみ・だるさ・コリにアプローチ</li>
+              <li>短時間でも「温かさ」「軽さ」を感じやすい</li>
+              <li>チェック数が多い方ほど、体感が出やすい傾向</li>
+            </ul>
+            <p class="note small">※体感には個人差があります。</p>
+          </div>
+
+          <div class="contact">
+            <h4>ご予約・お問い合わせ</h4>
+            <p class="muted small">下のボタンのリンク先を、桃ちゃんのお店の予約先に差し替えて使ってね。</p>
+            <div class="cta-col">
+              <a class="btn primary" id="reserveBtn" href="https://example.com" target="_blank" rel="noopener">体験を予約する</a>
+              <a class="btn ghost" id="lineBtn" href="https://line.me/R/ti/p/@example" target="_blank" rel="noopener">LINEで相談する</a>
+            </div>
+            <p class="note small">
+              例：<span class="mono">https://example.com</span> をホットペッパー／予約フォーム／Googleフォーム／Lステップ等に変更
+            </p>
+          </div>
+        </div>
+
+        <div class="footer-actions">
+          <a class="btn ghost" href="#check">チェックに戻る</a>
+          <button class="btn ghost" id="copyResultBtn" type="button">結果をコピー（スタッフに見せる用）</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="muted small">© Bloodflow Check. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
